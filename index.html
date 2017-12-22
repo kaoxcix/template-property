@@ -1,14 +1,409 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Hi There!">
-  <meta name="author" content="kaoxcix">
-  <title>Hi There!</title>
-</head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/css/glide.theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/glide.min.js"></script>
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <script src="/assets/main.js"></script>
+
+
+    <title>Homepage</title>
+
+
+</head>
 <body>
-  <h1>Hi There!</h1>
+
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+    <div class="ui container">
+        <a class="item">Home</a>
+        <a class="item">Company</a>
+        <div class="right menu">
+            <!--<div class="item">-->
+            <!--<a class="ui button">Log in</a>-->
+            <!--</div>-->
+            <!--<div class="item">-->
+            <!--<a class="ui primary button">Sign Up</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">Work</a>
+    <a class="item">Company</a>
+    <a class="item">Careers</a>
+    <a class="item">Login</a>
+    <a class="item">Signup</a>
+</div>
+
+<!-- Page Contents -->
+<div class="pusher">
+    <div style="position: absolute; top: 20px; left:20px; z-index: 1000">
+        <a href="/">
+            <img src="/assets/images/logo.png" alt=""
+                 style="height: 100px; width: auto; filter: brightness(0) invert(1)">
+        </a>
+    </div>
+
+    <div id="Carousel1" class="glide" style="height: 100vh; position: relative">
+        <div class="glide__arrows">
+            <button class="glide__arrow prev" data-glide-dir="<"><</button>
+            <button class="glide__arrow next" data-glide-dir=">">></button>
+        </div>
+
+        <div class="glide__wrapper">
+            <ul class="glide__track" style="margin: 0">
+                <li class="glide__slide" data-glide-autoplay="1000">
+                    <div class="box darker" style="height: 100vh">
+                        <img src="/assets/images/slide-01.jpg" style="width: 100%; height: 100%; object-fit: cover; "
+                             alt="">
+                    </div>
+                </li>
+                <li class="glide__slide" data-glide-autoplay="3000">
+                    <div class="box darker" style="height: 100vh">
+                        <img src="/assets/images/slide-02.jpg" style="width: 100%; height: 100%; object-fit: cover"
+                             alt="">
+                    </div>
+                </li>
+                <li class="glide__slide" data-glide-autoplay="5000">
+                    <div class="box darker" style="height: 100vh">
+                        <img src="/assets/images/slide-03.jpg" style="width: 100%; height: 100%; object-fit: cover"
+                             alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--<div class="glide__bullets"></div>-->
+
+        <div style="
+            padding: 10px;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            top:0;
+            color: whitesmoke;
+            z-index: 1;
+        ">
+
+            <p style="z-index: 2; color: #2986ce; font-family: 'Playfair Display', serif; font-size: 18px; font-style: italic">
+                Find the Best</p>
+            <p style="z-index: 2; text-transform: uppercase; font-size: 56px; font-weight: bold; line-height: .9em">
+                Property Insights</p>
+            <p style="z-index: 2; font-size: 14px">Search over million properties and discover free</p>
+            <p style="z-index: 2; font-size: 14px">estimated market values, sold prices, rateable valuations
+                andmore.</p>
+            <button style="z-index: 2; margin-top: 10px" class="ui primary basic button large">Find Properties</button>
+            <div style="
+                position: absolute;
+                top:50%;
+                transform: translateY(-50%);
+                background: rgba(0,0,0,.45);
+                width: 300px;
+                height: 60%;
+                z-index: 1;
+
+            ">
+            </div>
+        </div>
+
+        <div style="z-index:23232; position:absolute; bottom: 20px; text-align: center; width: 100%; color: whitesmoke">
+            <a href="#explore" style="display: inline-block" class="animated infinite pulse">
+                <div>
+                    <small>EXPLORE</small>
+                </div>
+                <div><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
+            </a>
+        </div>
+    </div>
+
+    <div id="explore">
+        <div class="ui vertical stripe">
+            <div class="ui aligned stackable grid container">
+                <div class="row">
+                    <div class="eight wide column">
+                        <h3 class="ui header"
+                            style="font-family: 'Playfair Display', serif; font-size: 36px; letter-spacing: .4em; margin-bottom: 3px">
+                            PHILOSOPHY</h3>
+                        <div style="border-top: 2px solid #2986ce; width: 80px; height: 10px"></div>
+                        <p style="font-weight: 300; font-size: 16px">
+                            Suneikii is a full service real estate asset management provider.
+                            Comprised of professionals from the multifamily, retail, construction and development
+                            sectors,
+                            TMG is dedicated to leveraging technology and best practices across sectors to simplify
+                            every
+                            interaction between our service and the end customer.
+                            <br/>
+                            <br/>
+                            Guided by the principle that simpler is better,Suneikii's mission is to increase the
+                            core value of managed real estate assets by leveraging technology and innovation to
+                            streamline
+                            operations and improve the customer experience.
+                        </p>
+                    </div>
+                    <div class="six wide right floated column">
+                        <img src="assets/images/image-01.jpg" class="ui fluid bordered image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui container segment">
+        <div class="ui four statistics">
+            <div class="statistic">
+                <div class="value">
+                    800+
+                </div>
+                <div class="label">
+                    Apartments
+                </div>
+            </div>
+            <div class="statistic">
+                <div class="text value">
+                    Three<br>
+                    Thousand UP!
+                </div>
+                <div class="label">
+                    Lands
+                </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    <i class="fa fa-building" aria-hidden="true"></i>1200+
+                </div>
+                <div class="label">
+                    Condominiums
+                </div>
+            </div>
+            <div class="statistic">
+                <div class="value">
+                    10K+
+                </div>
+                <div class="label">
+                    Customers
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Carousel2" class="glide" style="height: 350px; position: relative; overflow: hidden">
+        <div style="
+            position: absolute;
+            z-index: 1;
+            top: 36px;
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            color: whitesmoke;
+            font-family: 'Playfair Display';
+            letter-spacing: .3em;
+        ">
+            HAPPY CUSTOMERS
+        </div>
+        <img src="/assets/images/feedback.jpg" alt=""
+             style="position: absolute; z-index: 0; top: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(5px); transform: scale(1.1)">
+        <div class="glide__arrows">
+            <button class="glide__arrow prev" data-glide-dir="<"><</button>
+            <button class="glide__arrow next" data-glide-dir=">">></button>
+        </div>
+
+        <div class="glide__wrapper">
+            <ul class="glide__track" style="margin: 0;">
+                <li class="glide__slide" data-glide-autoplay="1000">
+                    <div class="box"
+                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
+                        <div class="ui container">
+                            <img class="ui centered tiny image circular" src="/assets/images/user-01.jpg">
+                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
+                                Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete
+                                <br/>
+                                scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at,
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide" data-glide-autoplay="3000">
+                    <div class="box"
+                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
+                        <div class="ui container">
+                            <img class="ui centered tiny image circular" src="/assets/images/user-01.jpg">
+                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                <br/>
+                                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                                years
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide" data-glide-autoplay="5000">
+                    <div class="box"
+                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
+                        <div class="ui container">
+                            <img class="ui centered tiny image circular" src="/assets/images/user-01.jpg">
+                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
+                                It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">About</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Sitemap</a>
+                        <a href="#" class="item">Contact Us</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Services</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Apartment</a>
+                        <a href="#" class="item">Lands</a>
+                        <a href="#" class="item">Condominium</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Property Suneikii</h4>
+                    <p>© 2017 Property Suneikii Powered by Suneikii.com All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="hero-body">-->
+
+
+    <!--<img src="/assets/images/hero-2.jpg" class="image-fullscreen" alt="">-->
+    <!--<div class="ui two column centered grid">-->
+    <!--<div class="column box"> asdas </div>-->
+    <!--</div>-->
+
+    <!--<div class="anchor-link">-->
+    <!--<Link to="cpn_content" smooth={true} duration={700}>-->
+    <!--<i class="fa fa-2x fa-arrow-down" aria-hidden="true"></i>-->
+    <!--</Link>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="ui inverted vertical masthead center aligned segment">-->
+
+    <!--<div class="ui container">-->
+    <!--<div class="ui large secondary inverted pointing menu">-->
+    <!--<a class="toc item">-->
+    <!--<i class="sidebar icon"></i>-->
+    <!--</a>-->
+    <!--<a class="active item">Home</a>-->
+    <!--<a class="item">Work</a>-->
+    <!--<a class="item">Company</a>-->
+    <!--<a class="item">Careers</a>-->
+    <!--<div class="right item">-->
+    <!--<a class="ui inverted button">Log in</a>-->
+    <!--<a class="ui inverted button">Sign Up</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="ui text container">-->
+    <!--<h1 class="ui inverted header">-->
+    <!--Imagine-a-Company-->
+    <!--</h1>-->
+    <!--<h2>Do whatever you want when you want to.</h2>-->
+    <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
+    <!--</div>-->
+
+    <!--</div>-->
+
+    <!--<div class="ui vertical stripe segment">-->
+    <!--<div class="ui middle aligned stackable grid container">-->
+    <!--<div class="row">-->
+    <!--<div class="eight wide column">-->
+    <!--<h3 class="ui header">We Help Companies and Companions</h3>-->
+    <!--<p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>-->
+    <!--<h3 class="ui header">We Make Bananas That Can Dance</h3>-->
+    <!--<p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>-->
+    <!--</div>-->
+    <!--<div class="six wide right floated column">-->
+    <!--<img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="center aligned column">-->
+    <!--<a class="ui huge button">Check Them Out</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="ui vertical stripe quote segment">-->
+    <!--<div class="ui equal width stackable internally celled grid">-->
+    <!--<div class="center aligned row">-->
+    <!--<div class="column">-->
+    <!--<h3>"What a Company"</h3>-->
+    <!--<p>That is what they all say about us</p>-->
+    <!--</div>-->
+    <!--<div class="column">-->
+    <!--<h3>"I shouldn't have gone with their competitor."</h3>-->
+    <!--<p>-->
+    <!--<img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys-->
+    <!--</p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="ui vertical stripe segment">-->
+    <!--<div class="ui text container">-->
+    <!--<h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>-->
+    <!--<p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>-->
+    <!--<a class="ui large button">Read More</a>-->
+    <!--<h4 class="ui horizontal header divider">-->
+    <!--<a href="#">Case Studies</a>-->
+    <!--</h4>-->
+    <!--<h3 class="ui header">Did We Tell You About Our Bananas?</h3>-->
+    <!--<p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>-->
+    <!--<a class="ui large button">I'm Still Quite Interested</a>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+</div>
+
 </body>
+
 </html>
