@@ -1,6 +1,10 @@
 $(document)
     .ready(function() {
-        var carousel = $('#Carousel1').glide({
+
+        $('.ui.checkbox').checkbox();
+        $('.ui.dropdown').dropdown();
+
+        var hero = $('#hero').glide({
             type: 'carousel',
         });
 
