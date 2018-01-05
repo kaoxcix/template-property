@@ -132,7 +132,6 @@ body {
 
   & .company-profile-title {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 36px;
     letter-spacing: .2em;
     hyphens: auto;
     margin-bottom: 3px
@@ -141,6 +140,16 @@ body {
   & .company-profile-gallery {
     div.row, div.column {
       padding: 0;
+    }
+
+    div.row {
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
     }
 
     img {
@@ -187,10 +196,10 @@ body {
 
     & h1 {
       font-family: 'Playfair Display', sans-serif;
-      font-size: 36px;
       letter-spacing: .2em;
       hyphens: auto;
-      margin-bottom: 3px
+      margin-bottom: 3px;
+      color: whitesmoke;
     }
   }
 
@@ -258,7 +267,6 @@ body {
 
   & .contact-us-title {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 36px;
     letter-spacing: .2em;
     hyphens: auto;
     margin-bottom: 3px
@@ -281,7 +289,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #202336;
-    color: white;
+    color: whitesmoke;
     width: 270px;
     padding: 20px;
     text-align: center;
@@ -341,7 +349,6 @@ body {
   &:before {
     font-family: FontAwesome;
     position: absolute;
-    font-size: 36px;
     content: "\f10d";
     top: 0;
     left: -20px;
@@ -350,7 +357,6 @@ body {
   &:after {
     font-family: FontAwesome;
     position: absolute;
-    font-size: 36px;
     content: "\f10e";
     top: 0;
     right: -20px;
