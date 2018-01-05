@@ -13,7 +13,6 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700"
           rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -32,37 +31,8 @@
 
     <link rel="stylesheet" href="assets/main.css">
     <script src="assets/main.js"></script>
-
-
 </head>
 <body>
-
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-    <div class="ui container">
-        <a class="item">Home</a>
-        <a class="item">Company</a>
-        <div class="right menu">
-            <!--<div class="item">-->
-            <!--<a class="ui button">Log in</a>-->
-            <!--</div>-->
-            <!--<div class="item">-->
-            <!--<a class="ui primary button">Sign Up</a>-->
-            <!--</div>-->
-        </div>
-    </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
-</div>
-
 <!-- Page Contents -->
 <div class="pusher">
     <div id="main-logo">
@@ -74,8 +44,10 @@
     <!-- Hero Contents -->
     <div id="hero" class="glide">
         <div class="glide__arrows">
-            <button class="glide__arrow prev" data-glide-dir="<"><</button>
-            <button class="glide__arrow next" data-glide-dir=">">></button>
+            <button class="glide__arrow prev" data-glide-dir="<"><i class="fa fa-caret-left" aria-hidden="true"></i>
+            </button>
+            <button class="glide__arrow next" data-glide-dir=">"><i class="fa fa-caret-right" aria-hidden="true"></i>
+            </button>
         </div>
 
         <div class="glide__wrapper">
@@ -124,7 +96,7 @@
             <div class="ui aligned stackable grid container">
                 <div class="row">
                     <div class="eight wide column">
-                        <h1 class="ui header company-profile-title">PHILOSOPHY</h1>
+                        <h1 class="ui header company-profile-title">​STORIES</h1>
                         <div class="title-underline"></div>
                         <p>
                             Suneikii is a full service real estate asset management provider.
@@ -135,14 +107,56 @@
                             interaction between our service and the end customer.
                             <br/>
                             <br/>
-                            Guided by the principle that simpler is better,Suneikii's mission is to increase the
+                            Guided by the principle that simpler is better, Suneikii's mission is to increase the
                             core value of managed real estate assets by leveraging technology and innovation to
                             streamline
                             operations and improve the customer experience.
                         </p>
                     </div>
                     <div class="six wide right floated column">
-                        <img src="assets/images/image-01.jpg" class="ui fluid bordered image" alt="">
+                        <img src="assets/images/profile/image-01.jpg" class="ui fluid bordered image" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui aligned grid container company-profile-gallery">
+                <div class="row">
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-02.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-09.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-04.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-05.jpg" class="ui fluid image" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="five wide column">
+                        <img src="assets/images/profile/image-06.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="six wide column">
+                        <img src="assets/images/profile/logo.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="five wide column">
+                        <img src="assets/images/profile/image-03.jpg" class="ui fluid image" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-08.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-11.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-10.jpg" class="ui fluid image" alt="">
+                    </div>
+                    <div class="four wide column">
+                        <img src="assets/images/profile/image-07.jpg" class="ui fluid image" alt="">
                     </div>
                 </div>
             </div>
@@ -150,16 +164,19 @@
     </div>
 
     <div id="service">
-        <div class="ui one column grid">
-            <div class="column service-title">
-                <h1>LEASE WITH US</h1>
-                <div class="title-underline"></div>
-                <p>Find your best residences with us. we provide not only Houses, Apartments, Condos, Lands, etc,
-                    <br>
-                    but also we provide information about properties necessary for you.</p>
+        <div class="service-title">
+            <div class="ui one column grid container">
+                <div class="column">
+                    <h1>LEASE WITH US</h1>
+                    <div class="title-underline" style="margin: 0 auto"></div>
+                    <p>Find your best residences with us. we provide not only Houses, Apartments, Condos, Lands, etc,
+                        <br>
+                        but also we provide information about properties necessary for you.</p>
+                </div>
             </div>
         </div>
-        <div class="ui stackable three column grid">
+
+        <div class="ui stackable three column grid" style="margin: 0;">
             <div class="column service-image-link">
                 <div class="service-link">
                     <span>Apartments</span>
@@ -191,62 +208,130 @@
     </div>
 
     <!-- Contact Contents -->
-
-
     <div id="contact-us">
+
+        <div class="ui container">
+            <h1 class="ui header contact-us-title">GET IN TOUCH</h1>
+            <div class="title-underline"></div>
+        </div>
+
         <div class="ui vertical stripe">
             <div class="ui aligned stackable grid container">
                 <div class="row">
-                    <div class="sixteen wide column">
-                        <h1 class="ui header contact-us-title">GET IN TOUCH</h1>
-                        <div class="title-underline"></div>
-                        <div>
-                            <form class="ui form">
-                                <div class="three fields">
-                                    <div class="field">
-                                        <label>First name</label>
-                                        <input type="text" placeholder="Peter">
-                                    </div>
-                                    <div class="field">
-                                        <label>Middle name</label>
-                                        <input type="text" placeholder="CK">
-                                    </div>
-                                    <div class="field">
-                                        <label>Last name</label>
-                                        <input type="text" placeholder="King">
-                                    </div>
-                                </div>
-                                <div class="two fields">
-                                    <div class="field">
-                                        <label>E-mail</label>
-                                        <input type="email" placeholder="peterking@example.com">
-                                    </div>
-                                    <div class="field">
-                                        <label>Phone Number</label>
-                                        <input type="tel" placeholder="123-456-7890">
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label>Message</label>
-                                    <textarea></textarea>
-                                </div>
-                                <div class="ui primary basic button large" tabindex="0">Submit</div>
-                            </form>
+                    <div class="ten wide column contact-map">
+                        <img src="assets/images/contact/map.jpg" alt="" class="contact-map-image">
+                        <div class="contact-map-direction">
+                            <h1>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <br>
+                                <span>Corporate Office</span>
+                            </h1>
+                            <p>
+                                <strong>Pornpailin Business Point</strong>
+                                <br>
+                                355/1 On Nut Rd,
+                                <br>
+                                Suan Luang
+                                <br>
+                                Bangkok 10250
+                            </p>
+                            <a class="ui primary basic button large" tabindex="0"
+                               href="https://goo.gl/maps/VBPryK98BJk">
+                                Get Directions
+                            </a>
+
                         </div>
+
                     </div>
+                    <div class="six wide right floated column">
+                        <h1>Corporate Office</h1>
+                        <p>
+                            Pornpailin Business Point
+                            <br>
+                            355/1 On Nut Rd,
+                            <br>
+                            Khwaeng Suan Luang,
+                            <br>
+                            Khet Suan Luang,
+                            <br>
+                            Bangkok 10250
+                        </p>
+
+                        <h1>Direct Contact</h1>
+                        <p>
+                            Phone: <a href="tel:123-456-7890">123-456-7890</a>
+                            <br>
+                            Email: <a href="mailto:property@suneikii.com">support@suneikii.com</a>
+                        </p>
+
+                        <h1>Departments</h1>
+                        <p>
+                            <a href="mailto:property@suneikii.com">customerservice@suneikii.com</a>
+                            <br>
+                            <a href="mailto:property@suneikii.com">sales@suneikii.com</a>
+                            <br>
+                            <a href="mailto:property@suneikii.com">disputes@suneikii.com</a>
+                            <br>
+                            <a href="mailto:property@suneikii.com">compliance@suneikii.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui container" style="margin-top: 20px">
+            <h1 class="ui header contact-us-title">MESSAGE TO US</h1>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="ui one column grid stackable container">
+            <div class="column">
+                <div>
+                    <form class="ui form">
+                        <div class="three fields">
+                            <div class="field">
+                                <label>First name</label>
+                                <input type="text" placeholder="Peter">
+                            </div>
+                            <div class="field">
+                                <label>Middle name</label>
+                                <input type="text" placeholder="CK">
+                            </div>
+                            <div class="field">
+                                <label>Last name</label>
+                                <input type="text" placeholder="King">
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="peterking@example.com">
+                            </div>
+                            <div class="field">
+                                <label>Phone Number</label>
+                                <input type="tel" placeholder="123-456-7890">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Message</label>
+                            <textarea></textarea>
+                        </div>
+                        <button class="ui primary basic button large" tabindex="0">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Footer Contents -->
-    <div class="ui inverted vertical footer segment">
+    <footer class="ui inverted vertical segment footer">
         <div class="ui container">
             <div class="ui stackable inverted divided equal height stackable grid">
                 <div class="three wide column">
                     <h4 class="ui inverted header">About</h4>
                     <div class="ui inverted link list">
                         <a href="#company-profile" class="item">Company Profile</a>
+                        <a href="#service" class="item">Service</a>
                         <a href="#contact-us" class="item">Contact Us</a>
                     </div>
                 </div>
@@ -266,214 +351,7 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <!--<div class="ui container segment">-->
-    <!--<div class="ui four statistics">-->
-    <!--<div class="statistic">-->
-    <!--<div class="value">-->
-    <!--800+-->
-    <!--</div>-->
-    <!--<div class="label">-->
-    <!--Apartments-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="statistic">-->
-    <!--<div class="text value">-->
-    <!--Three<br>-->
-    <!--Thousand UP!-->
-    <!--</div>-->
-    <!--<div class="label">-->
-    <!--Lands-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="statistic">-->
-    <!--<div class="value">-->
-    <!--<i class="fa fa-building" aria-hidden="true"></i>1200+-->
-    <!--</div>-->
-    <!--<div class="label">-->
-    <!--Condominiums-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="statistic">-->
-    <!--<div class="value">-->
-    <!--10K+-->
-    <!--</div>-->
-    <!--<div class="label">-->
-    <!--Customers-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--
-    <div id="Carousel2" class="glide" style="height: 350px; position: relative; overflow: hidden">
-        <div style="
-            position: absolute;
-            z-index: 1;
-            top: 36px;
-            width: 100%;
-            text-align: center;
-            font-size: 24px;
-            color: whitesmoke;
-            font-family: 'Playfair Display';
-            letter-spacing: .3em;
-        ">
-            HAPPY CUSTOMERS
-        </div>
-        <img src="assets/images/feedback.jpg" alt=""
-             style="position: absolute; z-index: 0; top: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(5px); transform: scale(1.1)">
-        <div class="glide__arrows">
-            <button class="glide__arrow prev" data-glide-dir="<"><</button>
-            <button class="glide__arrow next" data-glide-dir=">">></button>
-        </div>
-
-        <div class="glide__wrapper">
-            <ul class="glide__track" style="margin: 0;">
-                <li class="glide__slide">
-                    <div class="box"
-                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
-                        <div class="ui container">
-                            <img class="ui centered tiny image circular" src="assets/images/user-01.jpg">
-                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
-                                Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam alia facete
-                                <br/>
-                                scriptorem, est autem aliquip detraxit at. Usu ocurreret referrentur at,
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="glide__slide">
-                    <div class="box"
-                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
-                        <div class="ui container">
-                            <img class="ui centered tiny image circular" src="assets/images/user-01.jpg">
-                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
-                                Contrary to popular belief, Lorem Ipsum is not simply random text.
-                                <br/>
-                                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
-                                years
-                            </p>
-                        </div>
-                    </div>
-                </li>
-                <li class="glide__slide">
-                    <div class="box"
-                         style="height: 350px; display: flex; align-items: center; justify-content: center; text-align: center">
-                        <div class="ui container">
-                            <img class="ui centered tiny image circular" src="assets/images/user-01.jpg">
-                            <p class="quote" style="padding-top: 40px; font-size: 18px; color: whitesmoke">
-                                It is a long established fact that a reader will be distracted by the readable content
-                            </p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-    -->
-
-
-    <!--<div class="hero-body">-->
-
-
-    <!--<img src="assets/images/hero-2.jpg" class="image-fullscreen" alt="">-->
-    <!--<div class="ui two column centered grid">-->
-    <!--<div class="column box"> asdas </div>-->
-    <!--</div>-->
-
-    <!--<div class="anchor-link">-->
-    <!--<Link to="cpn_content" smooth={true} duration={700}>-->
-    <!--<i class="fa fa-2x fa-arrow-down" aria-hidden="true"></i>-->
-    <!--</Link>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="ui inverted vertical masthead center aligned segment">-->
-
-    <!--<div class="ui container">-->
-    <!--<div class="ui large secondary inverted pointing menu">-->
-    <!--<a class="toc item">-->
-    <!--<i class="sidebar icon"></i>-->
-    <!--</a>-->
-    <!--<a class="active item">Home</a>-->
-    <!--<a class="item">Work</a>-->
-    <!--<a class="item">Company</a>-->
-    <!--<a class="item">Careers</a>-->
-    <!--<div class="right item">-->
-    <!--<a class="ui inverted button">Log in</a>-->
-    <!--<a class="ui inverted button">Sign Up</a>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="ui text container">-->
-    <!--<h1 class="ui inverted header">-->
-    <!--Imagine-a-Company-->
-    <!--</h1>-->
-    <!--<h2>Do whatever you want when you want to.</h2>-->
-    <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
-    <!--</div>-->
-
-    <!--</div>-->
-
-    <!--<div class="ui vertical stripe segment">-->
-    <!--<div class="ui middle aligned stackable grid container">-->
-    <!--<div class="row">-->
-    <!--<div class="eight wide column">-->
-    <!--<h3 class="ui header">We Help Companies and Companions</h3>-->
-    <!--<p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>-->
-    <!--<h3 class="ui header">We Make Bananas That Can Dance</h3>-->
-    <!--<p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>-->
-    <!--</div>-->
-    <!--<div class="six wide right floated column">-->
-    <!--<img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-    <!--<div class="center aligned column">-->
-    <!--<a class="ui huge button">Check Them Out</a>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-
-    <!--<div class="ui vertical stripe quote segment">-->
-    <!--<div class="ui equal width stackable internally celled grid">-->
-    <!--<div class="center aligned row">-->
-    <!--<div class="column">-->
-    <!--<h3>"What a Company"</h3>-->
-    <!--<p>That is what they all say about us</p>-->
-    <!--</div>-->
-    <!--<div class="column">-->
-    <!--<h3>"I shouldn't have gone with their competitor."</h3>-->
-    <!--<p>-->
-    <!--<img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="ui vertical stripe segment">-->
-    <!--<div class="ui text container">-->
-    <!--<h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>-->
-    <!--<p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>-->
-    <!--<a class="ui large button">Read More</a>-->
-    <!--<h4 class="ui horizontal header divider">-->
-    <!--<a href="#">Case Studies</a>-->
-    <!--</h4>-->
-    <!--<h3 class="ui header">Did We Tell You About Our Bananas?</h3>-->
-    <!--<p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>-->
-    <!--<a class="ui large button">I'm Still Quite Interested</a>-->
-    <!--</div>-->
-    <!--</div>-->
-
-
+    </footer>
 </div>
-
 </body>
-
 </html>
