@@ -13,33 +13,67 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
+    <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Playfair+Display:400,700"
           rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
+    <!-- Jquery -->
     <script
             src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
+
+    <!-- Semantic UI-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.js"></script>
 
+    <!-- Glide carousel-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/css/glide.core.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/css/glide.theme.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/glide.min.js"></script>
 
+    <!-- Main  -->
     <link rel="stylesheet" href="assets/main.css?v3">
     <script src="assets/main.js?v2"></script>
 </head>
 <body>
 <!-- Page Contents -->
-<div class="pusher">
+<div class="wrapper">
     <div id="main-logo">
         <a href="/">
             <img src="assets/images/logo.png" alt="">
         </a>
     </div>
+
+    <div id="hamburger">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <div id="main-menu">
+        <ul>
+            <li>
+                <a href="#stories" class="smooth-scroll"><i class="fa fa-home" aria-hidden="true"></i> Stories</a>
+            </li>
+            <li>
+                <a href="#service" class="smooth-scroll"><i class="fa fa-building" aria-hidden="true"></i> Services</a>
+            </li>
+            <li>
+                <a href="#contact-us" class="smooth-scroll"><i class="fa fa-phone" aria-hidden="true"></i> Contact
+                    us</a>
+            </li>
+            <li>
+                <a href="#about-us" class="smooth-scroll"><i class="fa fa-user" aria-hidden="true"></i> About us</a>
+            </li>
+        </ul>
+    </div>
+
+    <a href="#" id="go-to-top">
+        <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </a>
 
     <!-- Hero Contents -->
     <div id="hero" class="glide">
@@ -81,7 +115,7 @@
         </div>
 
         <div class="btn-explore">
-            <a href="#company-profile" class="animated infinite pulse">
+            <a href="#stories" class="animated infinite pulse">
                 <div>
                     <small>EXPLORE</small>
                 </div>
@@ -91,26 +125,22 @@
     </div>
 
     <!-- Company Profile Contents -->
-    <div id="company-profile">
+    <div id="stories">
         <div class="ui vertical stripe">
             <div class="ui aligned stackable grid container">
                 <div class="row">
                     <div class="eight wide column">
-                        <h1 class="ui header company-profile-title">​STORIES</h1>
+                        <h1 class="ui header stories-title">​STORIES</h1>
                         <div class="title-underline"></div>
                         <p>
-                            Suneikii is a full service real estate asset management provider.
-                            Comprised of professionals from the multifamily, retail, construction and development
-                            sectors,
-                            TMG is dedicated to leveraging technology and best practices across sectors to simplify
-                            every
-                            interaction between our service and the end customer.
-                            <br/>
-                            <br/>
-                            Guided by the principle that simpler is better, Suneikii's mission is to increase the
-                            core value of managed real estate assets by leveraging technology and innovation to
-                            streamline
-                            operations and improve the customer experience.
+                            S.N.K Properties and Development Co.,Ltd.is a real estate development company,
+                            including leasing, buying and selling of mortgages, consignment of land,
+                            condominiums, apartments,hotels, resorts, real estate, redemption, refinancing, credit
+                            services.
+                            We also agency of renting service, we provide houses, condominiums, townhomes, lands for
+                            rent with value and fair.
+                            The intent is to open this company to ensure fairness and clarity both the buyer and the
+                            seller. Care and consultation services and advice with honesty and sincerity.
                         </p>
                     </div>
                     <div class="six wide right floated column">
@@ -119,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="ui aligned grid container company-profile-gallery">
+            <div class="ui aligned grid container stories-gallery">
                 <div class="row">
                     <div class="four wide column">
                         <img src="assets/images/profile/image-02.jpg" class="ui fluid image" alt="">
@@ -330,9 +360,10 @@
                 <div class="three wide column">
                     <h4 class="ui inverted header">About</h4>
                     <div class="ui inverted link list">
-                        <a href="#company-profile" class="item">Company Profile</a>
-                        <a href="#service" class="item">Service</a>
-                        <a href="#contact-us" class="item">Contact Us</a>
+                        <a href="#stories" class="item smooth-scroll">Stories</a>
+                        <a href="#service" class="item smooth-scroll">Service</a>
+                        <a href="#contact-us" class="item smooth-scroll">Contact Us</a>
+                        <a href="#about-us" class="item smooth-scroll">About Us</a>
                     </div>
                 </div>
                 <div class="three wide column">
