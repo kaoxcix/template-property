@@ -37,8 +37,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/2.1.0/glide.min.js"></script>
 
     <!-- Main  -->
-    <link rel="stylesheet" href="assets/main.css?v4">
-    <script src="assets/main.js?v3"></script>
+    <link rel="stylesheet" href="assets/main.css?v5">
+    <script src="assets/main.js?v5"></script>
 </head>
 <body>
 <!-- Page Contents -->
@@ -52,23 +52,48 @@
     <div id="hamburger">
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+    <!--<div class="ui icon top left pointing dropdown button lang-btn" id="lang-mobile">-->
+    <!--<i class="world icon"></i>-->
+    <!--<div class="menu">-->
+    <!--<div class="item">English</div>-->
+    <!--<div class="item">ไทย</div>-->
+    <!--</div>-->
+    <!--</div>-->
 
     <div id="main-menu">
         <ul>
             <li>
-                <a href="#stories" class="smooth-scroll"><i class="fa fa-home" aria-hidden="true"></i> Stories</a>
+                <a href="#stories" class="smooth-scroll"><i class="fa fa-home" aria-hidden="true"></i> เรื่องราว</a>
             </li>
             <li>
-                <a href="#service" class="smooth-scroll"><i class="fa fa-building" aria-hidden="true"></i> Services</a>
+                <a href="#service" class="smooth-scroll"><i class="fa fa-building" aria-hidden="true"></i> บริการ</a>
             </li>
             <li>
-                <a href="#about-us" class="smooth-scroll"><i class="fa fa-user" aria-hidden="true"></i> About us</a>
+                <a href="#about-us" class="smooth-scroll"><i class="fa fa-user" aria-hidden="true"></i> เกี่ยวกับเรา</a>
             </li>
             <li>
-                <a href="#contact-us" class="smooth-scroll"><i class="fa fa-phone" aria-hidden="true"></i> Contact us</a>
+                <a href="#contact-us" class="smooth-scroll"><i class="fa fa-phone" aria-hidden="true"></i> ติดต่อเรา</a>
+            </li>
+            <li class="lang">
+                <div class="ui icon top right pointing dropdown button lang-box" id="lang-desktop">
+                    <i class="world icon"></i>
+                    <div class="menu">
+                        <div class="item" data-value="en" data-text="English">English</div>
+                        <div class="item" data-value="th" data-text="ไทย">ไทย</div>
+                    </div>
+                </div>
+                <div class="ui selection dropdown lang-box" id="lang-mobile">
+                    <div class="text">ภาษา</div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <div class="item" data-value="en" data-text="English">English</div>
+                        <div class="item" data-value="th" data-text="ไทย">ไทย</div>
+                    </div>
+                </div>
             </li>
         </ul>
     </div>
+
 
     <a href="#" id="go-to-top">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
@@ -104,19 +129,18 @@
         </div>
 
         <div class="hero-text">
-            <p class="message-01">Find the Best</p>
-            <p class="message-02">Property Insights</p>
-            <p class="message-03">Search over million properties and discover free</p>
-            <p class="message-03">estimated market values, sold prices, rateable valuations and more.</p>
-            <a href="http://property.suneikii.com" class="ui primary basic button large btn-find-properties">Find
-                Properties</a>
+            <p class="message-01">ค้นพบที่สุดของ</p>
+            <p class="message-02">อสังหาริมทรัพย์</p>
+            <p class="message-03">ค้นพบมากกว่าล้านอสังหาริมทรัพย์</p>
+            <p class="message-03">มูลค่าตลาด, ราคาขาย, การประเมินค่าราคาและอื่น ๆ</p>
+            <a href="http://property.suneikii.com" class="ui primary basic button large btn-find-properties">ค้นหาอสังหาริมทรัพย์</a>
             <div class="dark-box"></div>
         </div>
 
         <div class="btn-explore">
             <a href="#stories" class="animated infinite pulse smooth-scroll">
                 <div>
-                    <small>EXPLORE</small>
+                    <small>สำรวจ</small>
                 </div>
                 <div><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
             </a>
@@ -129,17 +153,15 @@
             <div class="ui aligned stackable grid container">
                 <div class="row">
                     <div class="eight wide column">
-                        <h1 class="ui header stories-title">​STORIES</h1>
+                        <h1 class="ui header stories-title">เรื่องราว</h1>
                         <div class="title-underline"></div>
                         <p>
-                            S.N.K Properties and Development Co.,Ltd.is a real estate development company,
-                            including leasing, buying and selling of mortgages, consignment of land,
-                            condominiums, apartments,hotels, resorts, real estate, redemption, refinancing, credit
-                            services.
-                            We also agency of renting service, we provide houses, condominiums, townhomes, lands for
-                            rent with value and fair.
-                            The intent is to open this company to ensure fairness and clarity both the buyer and the
-                            seller. Care and consultation services and advice with honesty and sincerity.
+                            จากความศรัทธา "ทุกสิ่งเป็นไปได้" เรามุ่งมั่น ทุ่มเท พัฒนา
+                            จัดการแก้ไขปัญหาให้ผู้ประกอบการโรงแรมได้อย่างตรงจุด และผู้รับบริการ
+                            ได้รับประสบการที่ยอดเยี่ยม เพราะเราไม่ใช่แค่ บริหารการจัดการ
+                            แต่เราให้คุณภาพชีวิตของผู้ประกอบการและผู้ใช้บริการระดับสูงสุดด้วย
+                            ความปรารถนาอย่างแรงกล้าที่จะพัฒนาระบบ การจัดการโรงแรม ให้ผู้ประกอบการ ได้รับผลลัพธ์
+                            ที่มากขึ้น แต่เหนื่อยน้อยลง
                         </p>
                     </div>
                     <div class="six wide right floated column">
@@ -196,11 +218,12 @@
         <div class="service-title">
             <div class="ui one column grid container">
                 <div class="column">
-                    <h1 class="ui header">LEASE WITH US</h1>
+                    <h1 class="ui header">เช่าซื้อกับเรา</h1>
                     <div class="title-underline" style="margin-left: auto; margin-right: auto;"></div>
-                    <p>Find your best residences with us. we provide not only Houses, Apartments, Condos, Lands, etc,
-                        <br>
-                        but also we provide information about properties necessary for you.</p>
+                    <p>
+                        หาที่อยู่อาศัยที่ดีที่สุดของคุณกับเรา เราให้ไม่เพียง แต่บ้าน, อพาร์ทเมน, คอนโด, ที่ดิน, ฯลฯ
+                        <br/>
+                        แต่เรายังให้ข้อมูลเกี่ยวกับอสังหาริมทรัพย์ที่จำเป็นสำหรับคุณ</p>
                 </div>
             </div>
         </div>
@@ -208,27 +231,27 @@
         <div class="ui stackable three column grid" style="margin: 0;">
             <div class="column service-image-link">
                 <div class="service-link">
-                    <span>Apartments</span>
+                    <span>อพาร์ทเมนท์</span>
                     <a href="http://property.suneikii.com/apartments"
-                       class="ui primary basic button large btn-explore-service">Explore</a>
+                       class="ui primary basic button large btn-explore-service">สำรวจ</a>
                 </div>
                 <img src="assets/images/services/apartments.jpg" alt="Apartment" class="service-img">
                 <div class="dark-box"></div>
             </div>
             <div class="column service-image-link">
                 <div class="service-link">
-                    <span>Lands</span>
+                    <span>ที่ดิน</span>
                     <a href="http://property.suneikii.com/lands"
-                       class="ui primary basic button large btn-explore-service">Explore</a>
+                       class="ui primary basic button large btn-explore-service">สำรวจ</a>
                 </div>
                 <img src="assets/images/services/land.jpg" alt="Land" class="service-img">
                 <div class="dark-box"></div>
             </div>
             <div class="column service-image-link">
                 <div class="service-link">
-                    <span>Condominiums</span>
+                    <span>อาคารชุด</span>
                     <a href="http://property.suneikii.com/condos"
-                       class="ui primary basic button large btn-explore-service">Explore</a>
+                       class="ui primary basic button large btn-explore-service">สำรวจ</a>
                 </div>
                 <img src="assets/images/services/condominium.jpg" alt="Condominium" class="service-img">
                 <div class="dark-box"></div>
@@ -236,152 +259,302 @@
         </div>
     </div>
 
-    <!-- Contact Contents -->
-    <div id="contact-us">
-
-        <div class="ui container">
-            <h1 class="ui header contact-us-title">GET IN TOUCH</h1>
-            <div class="title-underline"></div>
-        </div>
-
-        <div class="ui vertical stripe">
-            <div class="ui aligned stackable grid container">
-                <div class="row">
-                    <div class="ten wide column contact-map">
-                        <img src="assets/images/contact/map.jpg" alt="" class="contact-map-image">
-                        <div class="contact-map-direction">
-                            <h1>
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                <br>
-                                <span>Corporate Office</span>
-                            </h1>
-                            <p>
-                                <strong>Pornpailin Business Point</strong>
-                                <br>
-                                355/1 On Nut Rd,
-                                <br>
-                                Suan Luang
-                                <br>
-                                Bangkok 10250
-                            </p>
-                            <a class="ui primary basic button large" tabindex="0"
-                               href="https://goo.gl/maps/VBPryK98BJk">
-                                Get Directions
-                            </a>
-
-                        </div>
-
-                    </div>
-                    <div class="six wide right floated column">
-                        <h1>Corporate Office</h1>
-                        <p>
-                            Pornpailin Business Point
-                            <br>
-                            355/1 On Nut Rd,
-                            <br>
-                            Khwaeng Suan Luang,
-                            <br>
-                            Khet Suan Luang,
-                            <br>
-                            Bangkok 10250
-                        </p>
-
-                        <h1>Direct Contact</h1>
-                        <p>
-                            Phone: <a href="tel:123-456-7890">123-456-7890</a>
-                            <br>
-                            Email: <a href="mailto:property@suneikii.com">support@suneikii.com</a>
-                        </p>
-
-                        <h1>Departments</h1>
-                        <p>
-                            <a href="mailto:property@suneikii.com">customerservice@suneikii.com</a>
-                            <br>
-                            <a href="mailto:property@suneikii.com">sales@suneikii.com</a>
-                            <br>
-                            <a href="mailto:property@suneikii.com">disputes@suneikii.com</a>
-                            <br>
-                            <a href="mailto:property@suneikii.com">compliance@suneikii.com</a>
-                        </p>
-                    </div>
+    <!-- About us Contents -->
+    <div id="about-us">
+        <div class="about-us-title">
+            <div class="ui one column grid container">
+                <div class="column">
+                    <h1 class="ui header">จากความศรัทธา "ทุกสิ่งเป็นไปได้"</h1>
+                    <div class="title-underline" style="margin-left: auto; margin-right: auto;"></div>
+                    <p>
+                        เรามุ่งมั่น ทุ่มเท พัฒนา จัดการแก้ไขปัญหาให้ผู้ประกอบการโรงแรมได้อย่างตรงจุด และผู้รับบริการ
+                        ได้รับประสบการที่ยอดเยี่ยม
+                        <br>
+                        เพราะเราไม่ใช่แค่ บริหารการจัดการ แต่เราให้คุณภาพชีวิตของผู้ประกอบการและผู้ใช้บริการระดับสูงสุด
+                        <br>
+                        ด้วย ความปรารถนาอย่างแรงกล้าที่จะพัฒนาระบบ การจัดการโรงแรม ให้ผู้ประกอบการ ได้รับผลลัพธ์
+                        <br>
+                        ที่มากขึ้น แต่เหนื่อยน้อยลง
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="ui container" style="margin-top: 20px">
-            <h1 class="ui header contact-us-title">MESSAGE TO US</h1>
-            <div class="title-underline"></div>
+        <div class="half-wrapper">
+            <div>
+                <img src="assets/images/profile/image-01.jpg" class="full-image" alt="">
+            </div>
+            <div>
+                <h1>Smart hotel System Management</h1>
+                <p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด <br>
+                    และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ <br>
+                    เพื่อให้ผู้ประกอบการ ดู Report ได้ ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>
+            </div>
         </div>
 
-        <div class="ui one column grid stackable container">
-            <div class="column">
-                <div>
-                    <form class="ui form">
-                        <div class="three fields">
-                            <div class="field">
-                                <label>First name</label>
-                                <input type="text" placeholder="Peter">
-                            </div>
-                            <div class="field">
-                                <label>Middle name</label>
-                                <input type="text" placeholder="CK">
-                            </div>
-                            <div class="field">
-                                <label>Last name</label>
-                                <input type="text" placeholder="King">
-                            </div>
-                        </div>
-                        <div class="two fields">
-                            <div class="field">
-                                <label>E-mail</label>
-                                <input type="email" placeholder="peterking@example.com">
-                            </div>
-                            <div class="field">
-                                <label>Phone Number</label>
-                                <input type="tel" placeholder="123-456-7890">
-                            </div>
-                        </div>
-                        <div class="field">
-                            <label>Message</label>
-                            <textarea></textarea>
-                        </div>
-                        <button class="ui primary basic button large" tabindex="0">Submit</button>
-                    </form>
+        <div class="half-wrapper reverse">
+            <div>
+                <img src="assets/images/profile/image-02.jpg" class="full-image" alt="">
+            </div>
+            <div>
+                <h1>Smart People System Management</h1>
+                <p>การจัดการวางระบบบุคลากรให้เหมาะสม กับองค์กร <br>
+                    และฝึกฝนทักษะของบุคลากรให้มีประสิทธิภาพในการบริการมากยิ่งขึ้น</p>
+            </div>
+        </div>
+
+        <div class="half-wrapper">
+            <div>
+                <img src="assets/images/profile/image-03.jpg" class="full-image" alt="">
+            </div>
+            <div>
+                <h1>Smart Audit System Management</h1>
+                <p>การเข้า audit ตรวจสอบคุณภาพ <br>เพื่อปรับปรุงสถานประกอบการให้มีคุณภาพที่ดีมากยิ่งขึ้น</p>
+            </div>
+        </div>
+
+        <div class="half-wrapper reverse">
+            <div>
+                <img src="assets/images/profile/image-04.jpg" class="full-image" alt="">
+            </div>
+            <div>
+                <h1>สู่แรงบัลดาลใจ ยิ่งให้ยิ่งได้รับ</h1>
+                <p>จากแรงบันดาลใจยิ่งให้ยิ่งได้รับ เรามีความปรารถนาที่จะให้ผู้ใช้บริการโรงแรม <br>
+                    ได้รับประสบการณ์ความพึงพอใจ ที่ดีที่สุด และสามารถส่งต่อความสุขนี้ ไปยังผู้อื่น <br>
+                    <br><br>
+                    เรามีความมุ่งมั่น ที่จะขับเคลื่อน แนวคิดนี้ เพื่อให้ผู้ประกอบการและผู้ใช้บริการได้รับคุณภาพชีวิต
+                    <br>
+                    ที่มีคุณค่า มากยิ่งขึ้น <br>
+                    เราเชื่อว่า "ทุกสิ่ง เป็นไปได้"</p>
+            </div>
+        </div>
+
+        <!--<div class="ui container">-->
+        <!--<h1 class="ui header about-us-title">จากความศรัทธา "ทุกสิ่งเป็นไปได้"</h1>-->
+        <!--<div class="title-underline"></div>-->
+
+
+        <!--<div class="half-wrapper">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-01.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<p>เรามุ่งมั่น ทุ่มเท พัฒนา จัดการแก้ไขปัญหาให้ผู้ประกอบการโรงแรมได้อย่างตรงจุด และผู้รับบริการ-->
+        <!--ได้รับประสบการที่ยอดเยี่ยม เพราะเราไม่ใช่แค่ บริหารการจัดการ-->
+        <!--แต่เราให้คุณภาพชีวิตของผู้ประกอบการและผู้ใช้บริการระดับสูงสุด-->
+        <!--ด้วย ความปรารถนาอย่างแรงกล้าที่จะพัฒนาระบบ การจัดการโรงแรม ให้ผู้ประกอบการ ได้รับผลลัพธ์-->
+        <!--ที่มากขึ้น-->
+        <!--แต่เหนื่อยน้อยลง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="half-wrapper reverse">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-02.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<h1>Smart hotel System Management</h1>-->
+        <!--<p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด-->
+        <!--และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ เพื่อให้ผู้ประกอบการ ดู Report ได้-->
+        <!--ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="half-wrapper reverse">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-02.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<h1>Smart hotel System Management</h1>-->
+        <!--<p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด-->
+        <!--และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ เพื่อให้ผู้ประกอบการ ดู Report ได้-->
+        <!--ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="half-wrapper reverse">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-02.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<h1>Smart hotel System Management</h1>-->
+        <!--<p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด-->
+        <!--และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ เพื่อให้ผู้ประกอบการ ดู Report ได้-->
+        <!--ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="half-wrapper reverse">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-02.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<h1>Smart hotel System Management</h1>-->
+        <!--<p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด-->
+        <!--และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ เพื่อให้ผู้ประกอบการ ดู Report ได้-->
+        <!--ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="half-wrapper reverse">-->
+        <!--<div>-->
+        <!--<img src="assets/images/profile/image-02.jpg" class="full-image" alt="">-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<h1>Smart hotel System Management</h1>-->
+        <!--<p>โดยใช้เทคโนโลยี Smart Hotel Management โดยมีระบบ sheeting control ควบคุมระบบการเงินทั้งหมด-->
+        <!--และระบบ Smart Hotel Application เปรียบเสมือนโรงแรมเคลื่อนที่ เพื่อให้ผู้ประกอบการ ดู Report ได้-->
+        <!--ไม่ว่าจะอยู่ส่วนไหนของโลก ตลอด 24 ชั่วโมง</p>-->
+        <!--</div>-->
+        <!--</div>-->
+
+    </div>
+</div>
+
+<!-- Contact Contents -->
+<div id="contact-us">
+
+    <div class="ui container">
+        <h1 class="ui header contact-us-title">ติดต่อเรา</h1>
+        <div class="title-underline"></div>
+    </div>
+
+    <div class="ui vertical stripe">
+        <div class="ui aligned stackable grid container">
+            <div class="row">
+                <div class="ten wide column contact-map">
+                    <img src="assets/images/contact/map.jpg" alt="" class="contact-map-image">
+                    <div class="contact-map-direction">
+                        <h1>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <br>
+                            <span>ที่ตั้งหลัก</span>
+                        </h1>
+                        <p>
+                            <strong>อาคาร พรไพลิน บิสสิเนส พอยท์</strong>
+                            <br>
+                            355/1 ถนนอ่อนนุช
+                            <br>
+                            แขวงสวนหลวง เขตสวนหลวง
+                            <br>
+                            กรุงเทพมหานคร 10250
+                        </p>
+                        <a class="ui primary basic button large" tabindex="0"
+                           href="https://goo.gl/maps/VBPryK98BJk">
+                            ค้นหาเส้นทาง
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="six wide right floated column">
+                    <h1>ที่ตั้งหลัก</h1>
+                    <p>
+                        อาคาร พรไพลิน บิสสิเนส พอยท์
+                        <br>
+                        355/1 ถนนอ่อนนุช
+                        <br>
+                        แขวงสวนหลวง เขตสวนหลวง
+                        <br>
+                        กรุงเทพมหานคร 10250
+                    </p>
+
+                    <h1>ติดต่อโดยตรง</h1>
+                    <p>
+                        โทรศัพท์: <a href="tel:123-456-7890">123-456-7890</a>
+                        <br>
+                        อีเมล: <a href="mailto:property@suneikii.com">support@suneikii.com</a>
+                    </p>
+
+                    <h1>ติดต่อแผนก</h1>
+                    <p>
+                        <a href="mailto:property@suneikii.com">customerservice@suneikii.com</a>
+                        <br>
+                        <a href="mailto:property@suneikii.com">sales@suneikii.com</a>
+                        <br>
+                        <a href="mailto:property@suneikii.com">disputes@suneikii.com</a>
+                        <br>
+                        <a href="mailto:property@suneikii.com">compliance@suneikii.com</a>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer Contents -->
-    <footer class="ui inverted vertical segment footer">
-        <div class="ui container">
-            <div class="ui stackable inverted divided equal height stackable grid">
-                <div class="three wide column">
-                    <h4 class="ui inverted header">About</h4>
-                    <div class="ui inverted link list">
-                        <a href="#stories" class="item smooth-scroll">Stories</a>
-                        <a href="#service" class="item smooth-scroll">Service</a>
-                        <a href="#about-us" class="item smooth-scroll">About Us</a>
-                        <a href="#contact-us" class="item smooth-scroll">Contact Us</a>
+    <div class="ui container" style="margin-top: 20px">
+        <h1 class="ui header contact-us-title">ส่งข้อความหาเรา</h1>
+        <div class="title-underline"></div>
+    </div>
+
+    <div class="ui one column grid stackable container">
+        <div class="column">
+            <div>
+                <form class="ui form">
+                    <div class="three fields">
+                        <div class="field">
+                            <label>ชื่อต้น</label>
+                            <input type="text" placeholder="ปีเตอร​์">
+                        </div>
+                        <div class="field">
+                            <label>ช่ือกลาง</label>
+                            <input type="text" placeholder="ซีเค">
+                        </div>
+                        <div class="field">
+                            <label>ชื่อสกุล</label>
+                            <input type="text" placeholder="คิง">
+                        </div>
                     </div>
-                </div>
-                <div class="three wide column">
-                    <h4 class="ui inverted header">Services</h4>
-                    <div class="ui inverted link list">
-                        <a href="http://property.suneikii.com/apartments" class="item">Apartments</a>
-                        <a href="http://property.suneikii.com/lands" class="item">Lands</a>
-                        <a href="http://property.suneikii.com/condos" class="item">Condominiums</a>
+                    <div class="two fields">
+                        <div class="field">
+                            <label>อีเมล</label>
+                            <input type="email" placeholder="peterking@example.com">
+                        </div>
+                        <div class="field">
+                            <label>หมายเลขโทรศัพท์</label>
+                            <input type="tel" placeholder="123-456-7890">
+                        </div>
                     </div>
-                </div>
-                <div class="seven wide column">
-                    <h4 class="ui inverted header">S.N.K Properties and Development</h4>
-                    <p>
-                        © 2017 S.N.K Properties and Development Powered by Suneikii.com
-                        <br>All Rights Reserved.</p>
-                </div>
+                    <div class="field">
+                        <label>ข้อความ</label>
+                        <textarea></textarea>
+                    </div>
+                    <button class="ui primary basic button large" tabindex="0">ส่งข้อความ</button>
+                </form>
             </div>
         </div>
-    </footer>
+    </div>
+</div>
+
+<!-- Footer Contents -->
+<footer class="ui inverted vertical segment footer">
+    <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+                <h4 class="ui inverted header">เกี่ยวกับ</h4>
+                <div class="ui inverted link list">
+                    <a href="#stories" class="item smooth-scroll">เรื่อง</a>
+                    <a href="#service" class="item smooth-scroll">บริการ</a>
+                    <a href="#about-us" class="item smooth-scroll">เกี่ยวกับเรา</a>
+                    <a href="#contact-us" class="item smooth-scroll">ติดต่อเรา</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header">บริการ</h4>
+                <div class="ui inverted link list">
+                    <a href="http://property.suneikii.com/apartments" class="item">อพาร์ทเมนท์</a>
+                    <a href="http://property.suneikii.com/lands" class="item">ที่ดิน</a>
+                    <a href="http://property.suneikii.com/condos" class="item">อาคารชุด</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header">S.N.K Properties and Development</h4>
+                <p>
+                    © 2017 S.N.K Properties and Development Powered by Suneikii.com
+                    <br>All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
 </div>
 </body>
 </html>

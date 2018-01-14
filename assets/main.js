@@ -38,5 +38,14 @@ $(document)
             e.preventDefault();
             $('#main-menu').toggle();
         });
+
+        // Language Button
+        $('.lang-box')
+            .dropdown({
+                onChange: function(value, text, $selectedItem) {
+                    console.log('lang change to :' + value)
+                }
+            })
+        ;
     })
 ;
