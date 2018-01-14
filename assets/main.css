@@ -345,7 +345,9 @@ body {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; } }
+              flex-direction: column; }
+      #about-us .half-wrapper div:last-child {
+        padding: 40px 40px; } }
   #about-us .half-wrapper.reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -372,7 +374,14 @@ body {
     -ms-flex-item-align: center;
         align-self: center;
     text-align: center;
-    padding: 40px 80px; }
+    padding: 40px 80px;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto; }
+    #about-us .half-wrapper div:last-child h1 {
+      -webkit-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto; }
     @media (max-width: 768px) {
       #about-us .half-wrapper div:last-child {
         width: 100%; } }
